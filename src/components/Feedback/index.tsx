@@ -8,7 +8,7 @@ export default function Feedback() {
   return (
     <section className={`${styles.paddings}  relative z-10`}>
       <motion.div
-        // variants={staggerContainer}
+        variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
@@ -29,8 +29,8 @@ export default function Feedback() {
             </p>
           </div>
           <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white">
-            “With the development of today's technology, metaverse is very
-            useful for today's work, or can be called web 3.0. by using
+            “With the development of {"today's"} technology, metaverse is very
+            useful for {"today's"} work, or can be called web 3.0. by using
             metaverse you can use it as anything”
           </p>
         </motion.div>

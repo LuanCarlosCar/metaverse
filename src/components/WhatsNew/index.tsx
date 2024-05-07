@@ -12,7 +12,7 @@ export default function WhatsNew() {
   return (
     <section className={`${styles.paddings} flex justify-center relative z-10`}>
       <motion.div
-        // variants={staggerContainer}
+        variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
@@ -23,7 +23,7 @@ export default function WhatsNew() {
           className=" flex-[0.75] flex justify-center flex-col"
         >
           <Typingtext title="| What's New?" />
-          <TitleText title={<>What's new about Metaversus</>} />
+          <TitleText title={<>{"What's"} new about Metaversus</>} />
           <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
             {newFeatures.map((feature) => (
               <NewFeatures key={feature.title} {...feature} />
