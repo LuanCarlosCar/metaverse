@@ -28,7 +28,6 @@ export default function WhatsNew() {
               <NewFeatures key={feature.title} {...feature} />
             ))}
           </div>
-          ;
         </motion.div>
         <motion.div
           variants={planetVariants("right")}
