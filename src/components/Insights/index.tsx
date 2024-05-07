@@ -11,7 +11,6 @@ export default function Insights() {
   return (
     <section className={`${styles.paddings}  relative z-10`}>
       <motion.div
-        variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}

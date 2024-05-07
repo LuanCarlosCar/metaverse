@@ -12,7 +12,6 @@ export default function Explore() {
   return (
     <section className={`${styles.paddings}`} id="explore">
       <motion.div
-        variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{

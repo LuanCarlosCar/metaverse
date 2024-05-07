@@ -26,7 +26,6 @@ export default function World() {
   return (
     <section className={`${styles.paddings} flex justify-center relative z-10`}>
       <motion.div
-        variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
